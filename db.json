@@ -1,10 +1,13 @@
 {
-    "spc": null,
-    "renderAllPage": false,
-    "showForm": false,
-    "showEdit": false,
-    "showOpenProfile": true,
-    "no_form_class": "",
+   "config": { 
+      "spc": false,
+      "renderAllPage": false,
+      "showForm": false,
+      "showEdit": false,
+      "showOpenProfile": true,
+      "no_form_class": ""
+   },
+    
     "influcard": {
        "id": "4__4355072",
        "channel": "4",
@@ -2077,7 +2080,11 @@
        "brands_select": "<select id=\"sel-brands\" name=\"brands[]\" class =\"form-control custom-select select2 influcard-brands-select\" style=\"\" multiple=\"multiple\"  ><option  value=\"null\">Selecciona una marca</option></select>",
        "S3imagesServer": "https://images.brandmanic.com/api/v1/"
     },
-    "html": "",
+
+    "html": {
+      "content": ""
+    },
+
     "ages_array": {
        "13": "13-17",
        "18": "18-24",
@@ -2086,6 +2093,7 @@
        "45": "45-64",
        "65": "65 +"
     },
+
     "categories_color": {
        "ACTUALIDAD": "#80ED99",
        "ARTE": "#911F27",
@@ -2118,6 +2126,7 @@
        "OTRAS": "#F7F6F2",
        "OTROS": "#F7F6F2"
     },
+
     "rrss_name": {
        "1": "blog",
        "2": "twitter",
@@ -2132,6 +2141,7 @@
        "12": "tiktok",
        "13": "twitch"
     },
+    
     "rrss_icons": {
        "1": "fas fa-blog",
        "2": "fab fa-twitter",
@@ -2146,5 +2156,8 @@
        "12": "fab fa-tiktok",
        "13": "fab fa-twitch"
     },
-    "enc_id": "N1djTWxkaEtsRUpZTGpiVzc2eENrQT09IyMN__88__26__88__23__88__266O8wtjl3oniQwv0V0WF"
+
+    "enc_id": {
+      "id": "N1djTWxkaEtsRUpZTGpiVzc2eENrQT09IyMN__88__26__88__23__88__266O8wtjl3oniQwv0V0WF"
+    } 
  }
